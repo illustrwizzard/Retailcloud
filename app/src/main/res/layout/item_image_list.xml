@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+    android:contentDescription="@string/image_description" />
+
+    <!-- Add other UI elements like image title, author, etc. as needed -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textSize="14sp" />
+
+</LinearLayout>
